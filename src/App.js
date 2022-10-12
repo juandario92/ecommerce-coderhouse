@@ -1,6 +1,8 @@
 import './App.scss';
 
 function App() {
+  const precio = 20;
+
   return (
     <div className="App">
       <header className="header">
@@ -15,6 +17,18 @@ function App() {
         </div>
       </header>
       <main className='products'>
+        <div className='card'>
+          <span className='card__name'> Zapato Deportivo</span>
+          <p className='card__description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quod, accusantium iure maiores repellat corrupti?</p>
+          <span>${precio}</span>
+          <span>Quedan 5</span>
+        </div>
+        <div className='card'>
+          <span className='card__name'> Zapato Deportivo</span>
+          <p className='card__description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quod, accusantium iure maiores repellat corrupti?</p>
+          <span>$55</span>
+          <span>Quedan 5</span>
+        </div>
         <div className='card'>
           <span className='card__name'> Zapato Deportivo</span>
           <p className='card__description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quod, accusantium iure maiores repellat corrupti?</p>
